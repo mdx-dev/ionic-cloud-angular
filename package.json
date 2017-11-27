@@ -32,18 +32,21 @@
   },
   "homepage": "https://github.com/driftyco/ionic-cloud-angular#readme",
   "dependencies": {
-    "@ionic/cloud": "0.16.1-beta.1"
+    "@angular/core": "5.0.3",
+    "@ionic/cloud": "0.16.1-beta.1",
+    "rxjs": "^5.5.2",
+    "zone.js": "^0.8.18"
   },
   "peerDependencies": {
-    "@angular/core": "^2.1.1 || ^4.0.0",
+    "@angular/core": "5.0.3",
     "rxjs": "^5.1.1"
   },
   "devDependencies": {
-    "@angular/compiler": "4.0.2",
-    "@angular/compiler-cli": "4.0.2",
+    "@angular/compiler": "5.0.3",
+    "@angular/compiler-cli": "5.0.3",
     "chokidar-cli": "tlancina/chokidar-cli",
     "tslint": "^3.10.2",
     "tslint-ionic-rules": "*",
-    "typescript": "^2.2.0"
+    "typescript": "2.4.2"
   }
 }
